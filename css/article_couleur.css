@@ -1,0 +1,31 @@
+#super{vertical-align: super;}
+h1{text-align: center;}
+#titre{color: blue;}
+
+#body{background-color: #ffcc99;}
+#aide{text-align: center;
+      padding-top: 0.5cm;
+      height: 1cm;
+      border-radius: 20px;
+      background-color: #e7c101;}
+#main{margin-left: 20%;}
+
+#couscous{border-style: solid;
+         border-color: black;
+         float: left;
+         height: 7cm;
+         width: 7cm;}
+.media1{float: left;
+           height: 380px;
+           width: 300px;
+           margin-right: 1cm;
+           margin-left: 5%;
+           margin-bottom: 3cm;
+          }
+#para{background-color: #c0c0c0;
+            border: solid black 2px;
+            max-width: 50%;
+            margin-left: 50%;
+            }
+main{margin-left: 20%;
+     margin-bottom: 3cm;}
