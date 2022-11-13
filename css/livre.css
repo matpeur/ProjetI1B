@@ -1,0 +1,34 @@
+h1{text-align: center;
+   color:#ffd700;}
+body{background-color: #c0c0c0;}
+#aide{background-color:#ffd700;
+      border-radius: 10px;
+      height: 2cm;
+      width: 50%;
+      margin: auto;
+      text-align: center;
+      color: white;
+      padding-top: 0.5cm; }
+#commentaires{border: solid black 2px;
+             background-color: #d0d0d0;
+             width: 70%;
+             margin: auto;
+             padding-top: 0.5cm;
+             display: none;
+             }
+.pseudo{font-weight: bold;
+        position: relative;
+        left: 2cm;}
+#aide2{display: none;}
+#frm1{
+     max-width: 50%;
+     margin: auto;
+     background-color: #dddddd;
+     margin-top: 1cm;
+     margin-bottom: 3cm; }
+.moment{font-style: italic;
+        position: relative;
+        left: 2.5cm;}
+.txt{position: relative;
+        left: 2.5cm;}
+textarea{max-width: 62em;}

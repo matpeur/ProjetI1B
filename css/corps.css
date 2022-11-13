@@ -1,0 +1,39 @@
+nav,#menu{position: fixed;
+	         width: 15%;
+            height: 100%;
+            background-color: #e5e5e5;
+            left: 0px;
+            top: 0px;
+            z-index: 1;}
+ 
+nav table,#menu table{text-align: center;}            
+.imgsomm{height: 75px;
+         width: 75px;}
+a:visited{color: orange;}
+nav tr:hover,#menu tr:hover{background-color: red;}
+
+#select{background-color: lime;
+        color: white;}
+
+footer,#pied{position: fixed;;
+      bottom: 0px;
+      right: 0px;
+      height: 2cm;;
+      background-color: grey; 
+      opacity: 0.5;      
+      width:100%;
+     
+      }
+      
+#pied:hover,footer:hover{opacity: 1;}
+#foot{margin: auto;
+      max-width: 700px;
+      width: 50%;
+      margin-top: 25px;
+      }
+#foot td{width: 33%;
+        
+}
+#foot input{width: 90%;
+            margin-left: 5%;}
+  

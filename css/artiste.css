@@ -1,0 +1,9 @@
+#main{margin-left:20%;
+      margin-right: 2%;}
+body{background-color: #c0c0c0;}
+p{text-align: justify;}
+.titre{font-style: italic;
+       color: red;}
+a:hover{background-color: red;
+        color: white;}
+        

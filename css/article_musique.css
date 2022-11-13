@@ -1,0 +1,32 @@
+img{width: 200px;
+    height: 175px;}
+table{border-collapse: collapse;}
+tfoot,thead{background-color: black;
+            border: solid white 2px;
+            }
+th{color:white;
+   border: solid white 2px;}
+.tab{border: solid black 2px;
+   background-color: #efefef;
+   }
+#aide{background-color:#ffd700;
+      
+      border-radius: 10px;
+      height: 2.5cm;
+      width: 70%;
+      margin: auto;
+      text-align: justify;
+      color: white;
+      padding-top: 0.75cm;
+       }
+h1{text-align: center;}
+body{background-color: #c0c0c0;}
+#musique{
+         margin-top: 0.5cm;
+         color: #ff0000;
+         width: 30%;
+         margin-left:29%;}
+#frm1{width: 50%;
+      margin :auto;}
+main{margin-left: 20%;
+     margin-bottom: 3cm;}

@@ -1,0 +1,26 @@
+.titre{font-weight: bold;
+       text-align: center;}
+body{background-color: #c0c0c0;}
+#p{background-color:#ffd700;
+      
+      border-radius: 10px;
+      height: 1.2cm;
+      width: 100%;
+      margin: auto;
+      text-align: center;
+      color: white;
+      padding-top: 0.15cm;
+      padding-left: 0.1cm;
+      padding-right: 0.1cm;
+       }
+#pied2{display: block;
+       background-color: #909090;
+       color: #e0e0e0;
+       text-align: right;}
+tr:hover{background-color: #ff0000;
+         color: #ffffff;}
+       
+       
+       
+       
+       

@@ -1,0 +1,23 @@
+#main{margin-left: 20%;
+      margin-bottom: 3cm; 
+      margin-right: 1cm;}
+#moi{float: left;
+     height: 200px;
+     width: 175px;
+    margin-right: 1cm;}
+body{background-color: #c0c0c0;}
+h1,h3{text-align: center;
+      text-decoration: underline;}
+p{text-align: justify;}
+#intro{background-color:#ffd700;
+      
+      border-radius: 10px;
+      height: 1.2cm;
+      width: 100%;
+      margin: auto;
+      text-align: justify;
+      color: white;
+      padding-top: 0.15cm;
+      padding-left: 0.1cm;
+      padding-right: 0.1cm;
+       }
