@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+	<head>
+		<link rel="stylesheet" type="text/css" href="../css/article_couleur.css" />
+		<link rel="stylesheet" type="text/css" href="../css/corps.css" />
+		<meta charset="utf-8">
+		<meta name="author" content="mathi" />
+				<title>Mon chien</title>
+	</head>
+	<body id="body">
+	<nav>
+			<table>
+				<tr>
+				   <td colspan="2"><a href="../index.html"><h3>Sommaire</h3></a></td>
+				</tr>
+		      <tr>
+                <td><a href="presentation.xhtml"><img src="../image/mathieu.jpg" alt="Une image de l'auteur" class="imgsomm" /></a></td>		      
+		          <td>Une petite présentation</td>
+		      </tr>
+		      <tr>
+		          <td><a href="volley.xhtml"><img src="../image/volley.jpg" alt="Une image de ballon" class="imgsomm" /> </a></td> 
+		          <td>Le volleyball</td>
+		      </tr>
+		      <tr>
+		      	 <td><a href="article_musique.html" ><img src="../image/musique.jpg" alt="Une photo d'instruments de musique" class="imgsomm" /></a></td>
+                <td>Parlons de musique</td>
+		      </tr>
+		      <tr>
+		      	 <td><a href="artiste.xhtml" ><img src="../image/artiste.jpg" alt="Une photo pour l'artiste" class="imgsomm" /></a></td>
+		          <td>Voici un artiste que j'apprécie</td>
+		      </tr> 
+		      <tr id="select">
+                <td><img src="../image/chien.jpg" alt="Une photo du chien" class="imgsomm" /></td> 		      
+		          <td>Voici mon chien</td>
+		      </tr>
+		      <tr >
+		      	<td><a href="livre.html"><img src="../image/livre.jpg" alt="Une photo de présentation" class="imgsomm" /></a></td>
+		      	<td>Le livre d'or</td>
+		      </tr>
+		      <tr>
+		         <td><a href="contact.html" ><img src="../image/contact.jpg" alt="Une photo pour le contact" class="imgsomm" /></a></td>  
+		         <td>Contact</td>
+		      </tr>   
+		  </table>
+		</nav>
+	<main>
+		<h1 id="titre">Bienvenue dans cette article.</h1>
+		<h6 id="aide">Cette page contient plusieurs parties. Sois libre de les explorer en appuyant sur le bouton avancer.</h6>
+		<div id="paragraphe"><img src="../image/chienfiere.jpg" alt="chien fière" class="media1"><div id="para">J'ai décider de vous présenter mon animal de compagnie. Il s'agit d'un labrador
+		 femelle agée de 3ans. Elle s'appelle Lixy.Lixy est une chienne très sociable qui ne manque pas de nous faire rire avec des têtes parfois inattendus, vous en verrez d'ailleurs une dans 
+		 les parties qui suivent.</div></div>
+	<form id="form" method="post">
+	
+	<input type="button" id="change" onclick="change_coul();" value="Avancer"/>
+	
+	
+	</form>
+	</main>
+	<script src="../js/article_change.js"></script>
+	<script src="../js/corps.js"></script>
+	<footer>
+			<form>
+				<table id="foot">
+			      <tr>
+			          <td><input type="button" onclick="aller(4);" value="Page précédente" id="prec"/></td>
+   		          <td><input type="button" onclick="aller(0);" value="Retour au sommaire" id="som" /></td>
+  			 	     	 <td><input type="button" onclick="aller(6);" value="Page suivante" id="suiv"/></td>
+  			 		</tr>
+		      </table>	
+			</form>
+		</footer>
+	</body>
+</html>
