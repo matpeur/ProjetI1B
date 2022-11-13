@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="fr">
+	<head>
+		<title>article_musique</title>
+		<meta name="author" content="mathi" >
+		<link rel="stylesheet" type="text/css" href="../css/article_musique.css">
+		<link rel="stylesheet" type="text/css" href="../css/corps.css">
+		<meta charset="utf-8">
+		<meta name="author" content="mathi" />
+	</head>
+	<body>
+		<nav>
+			<table>
+				<tr>
+				   <td colspan="2"><a href="../index.html"><h3>Sommaire</h3></a></td>
+				</tr>
+		      <tr>
+                <td><a href="presentation.xhtml"><img src="../image/mathieu.jpg" alt="Une image de l'auteur" class="imgsomm" /></a></td>		      
+		          <td>Une petite présentation</td>
+		      </tr>
+		      <tr>
+		          <td><a href="volley.xhtml"><img src="../image/volley.jpg" alt="Une image de ballon" class="imgsomm" /> </a></td> 
+		          <td>Le volleyball</td>
+		      </tr>
+		      <tr id="select">
+		      	 <td><img src="../image/musique.jpg" alt="Une photo d'instruments de musique" class="imgsomm" /></td>
+                <td>Parlons de musique</td>
+		      </tr>
+		      <tr>
+		      	 <td><a href="artiste.xhtml" ><img src="../image/artiste.jpg" alt="Une photo pour l'artiste" class="imgsomm" /></a></td>
+		          <td>Voici un artiste que j'apprécie</td>
+		      </tr> 
+		      <tr>
+                <td><a href="article_couleur.html"><img src="../image/chien.jpg" alt="Une photo du chien" class="imgsomm" /></a></td> 		      
+		          <td>Voici mon chien</td>
+		      </tr>
+		      <tr >
+		      	<td><a href="livre.html"><img src="../image/livre.jpg" alt="Une photo de présentation" class="imgsomm" /></a></td>
+		      	<td>Le livre d'or</td>
+		      </tr>
+		      <tr>
+		         <td><a href="contact.html" ><img src="../image/contact.jpg" alt="Une photo pour le contact" class="imgsomm" /></a></td>  
+		         <td>Contact</td>
+		      </tr>   
+		  </table>
+		</nav>
+		<header>
+			<h1>Bienvenue sur l'article musique</h1>
+		</header>
+		<main>
+			<p id="aide">J'adore la musique, c'est de très important pour moi. Je joue de la musique depuis plus de neuf ans et j'écoute de la musique depuis que je suis né,
+         voire même avant. J'ai donc décider de créer une page en lien avec la musique. On va découvrir les instruments que je possède et essayer de créer quelque chose de
+         sympathique.
+			</p>
+			<br/>
+			<table>
+				<thead>
+					<tr>
+						<th>Instrument</th>
+						<th>Présentation</th>
+						<th>Démonstration</th>
+					</tr>
+				</thead>
+				<tfoot>
+					<tr>
+						<th>Instrument</th>
+						<th>Présentation</th>
+						<th>Démonstration</th>
+					</tr>
+				</tfoot>
+				<tbody>
+   				 <tr>
+   				     <td class="tab"><img src="../image/hautbois.jpg" alt="Une photo de hautbois"></td>
+  	  				     <td class="tab">On commence avec un instrument non des moindres puisqu'il s'agit du hautbois. C'est l'instrument que je préfère et celui que je pratique le plus. 
+   					      Cela fais plus de 9 ans que j'en joue et c'est toujours un plaisir.<br />
+     						   Le hautbois est un instrument à vent, connu depuis l'antiquité, qui à évoluer du hautbois baroque au hautbois moderne. Il est composé de deux corps, d'un pavillon
+        						et d'une anche double, dont la vibration est la source du son. Il s'agit d'un instrument qui s'occupe principalement de la mélodie.</td>
+       				  <td class="tab"><audio src="../audio/melodie.mp3" id="hautbois" preload="auto" controls>Hautbois</audio></td>
+  					 </tr>
+    			    <tr>
+ 			        <td class="tab"><img src="../image/piano.jpg" alt="Une photo de piano"></td>
+                 <td class="tab">L'instrument suivant est le piano, c'est un instrument que je ne possède pas de puis longtemps et par conséquent je ne suis pas très bon mais 
+                 on peut toujours réaliser quelque chose de sympathique.
+                 Le piano est un instrument à cordes frappées, c'est à dire qu'il y a des marteau qui frappent les cordes. Le piano est beaucoup utilisé pendant la période
+                 romantique. Celui-ci est électronique, c'est donc un synthétiseur qui permet de recréer de nombreux sons différents. </td>
+                 <td class="tab"><audio src="../audio/accompagnement.mp3" controls id="piano" preload="auto"></audio></td>
+                </tr>
+            </tbody>
+         
+	      
+         </table>       
+         <form id="frm1">
+            <input type="button" id="musique" onclick="music();" value="Lancer la musique">
+         </form>
+      </main>
+      <script src="../js/article_musique.js"></script>
+      <script src="../js/corps.js"></script>
+      <footer>
+			<form>
+				<table id="foot">
+			      <tr>
+			          <td><input type="button" onclick="aller(2);" value="Page précédente" id="prec"/></td>
+   		          <td><input type="button" onclick="aller(0);" value="Retour au sommaire" id="som" /></td>
+  			 	     	 <td><input type="button" onclick="aller(4);" value="Page suivante" id="suiv"/></td>
+  			 		</tr>
+		      </table>	
+			</form>
+		</footer>
+	</body>
+</html>

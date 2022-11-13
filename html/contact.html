@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head> 
+	<meta charset="UTF-8">
+	<title>Contact</title>
+	<link rel="stylesheet" type="text/css" href="../css/contact.css">
+	<link rel="stylesheet" type="text/css" href="../css/corps.css">
+	<meta name="author" content="mathi" />
+</head>
+<body onload="DonnezDate();">
+<nav>
+			<table>
+				<tr>
+				   <td colspan="2"><a href="../index.html"><h3>Sommaire</h3></a></td>
+				</tr>
+		      <tr>
+                <td><a href="presentation.xhtml"><img src="../image/mathieu.jpg" alt="Une image de l'auteur" class="imgsomm" /></a></td>		      
+		          <td>Une petite présentation</td>
+		      </tr>
+		      <tr>
+		          <td><a href="volley.xhtml"><img src="../image/volley.jpg" alt="Une image de ballon" class="imgsomm" /> </a></td> 
+		          <td>Le volleyball</td>
+		      </tr>
+		      <tr>
+		      	 <td><a href="article_musique.html" ><img src="../image/musique.jpg" alt="Une photo d'instruments de musique" class="imgsomm" /></a></td>
+                <td>Parlons de musique</td>
+		      </tr>
+		      <tr>
+		      	 <td><a href="artiste.xhtml" ><img src="../image/artiste.jpg" alt="Une photo pour l'artiste" class="imgsomm" /></a></td>
+		          <td>Voici un artiste que j'apprécie</td>
+		      </tr> 
+		      <tr>
+                <td><a href="article_couleur.html"><img src="../image/chien.jpg" alt="Une photo du chien" class="imgsomm" /></a></td> 		      
+		          <td>Voici mon chien</td>
+		      </tr>
+		      <tr >
+		      	<td><a href="livre.html"><img src="../image/livre.jpg" alt="Une photo de présentation" class="imgsomm" /></a></td>
+		      	<td>Le livre d'or</td>
+		      </tr>
+		      <tr id="select">
+		         <td><img src="../image/contact.jpg" alt="Une photo pour le contact" class="imgsomm" /></td>  
+		         <td>Contact</td>
+		      </tr>   
+		  </table>
+		</nav>
+      <main>
+      	<h1>Contact</h1>
+   	   <p id="p">Vous pouvez laisser un commentaire en remplissant le formulaire suivant <br /></p>
+   	   <form method="post" action="mailto:mathieu.bellegueulle@gmail.com" id="mail">
+				<table id="principal">
+				  <tr>
+			   		<td><label for="nom">Pseudonyme</label></td>
+				 	  <td><input type="text" name="nom" id="nom" /></td>
+  		   	  </tr>
+ 		     		<tr>
+ 		     	       <td><label for="tel">Téléphone :</label></td>
+ 		     	       <td><input type="tel" name="tel" id="tel"></td>
+		      	</tr>
+   		   	<tr>
+   		   	    <td><label for="email">Adresse e-mail :</label></td>
+  		      		 <td><input type="email" name="email" id="email"></td>
+		      	</tr>
+		      	<tr>
+		      	   <td><label for="url">Adresse URL :</label> </td>
+		      	   <td><input type="url" name="url" id="url"></td>
+   		   	</tr>
+  		    		<tr>
+ 		      	  <td><label for="month">Mois</label></td>
+ 		      	  <td><input type="month" name="month" id="month"></td>
+ 		   	  </tr>
+			    <tr>
+ 			         <td><label for="temps">Heure:</label></td>
+			         <td><input type="time" id="temps" name="temps"></td>
+  			    </tr>
+ 			    <tr>
+ 			        <td><label for="range">Choisir un nombre entre 3 et 10</label></td>
+			        <td><input type="number" min="3" max="10" step="1" name="range" id="range"></td>
+   	 		 </tr>
+  			    <tr>
+   	  		     <td><label for="fichier">Choisir un fichier</label></td>
+   			     <td><input type="file" id="fichier" name="fichier"></td>
+   			 </tr>
+      			<tr>
+      				<td><label for="pays">Choisir un pays</label> </td>
+      				<td><select name="pays" id="pays">
+      				      <option selected="selected">---Choisir un pays---</option>
+     	 						<option>France</option>
+     	 						<option>Allemagne</option>
+     	 						<option>Italie</option>
+      						<option>Espagne</option>
+      						<option>Belgique</option>
+      						<option>Suisse</option>
+      						<option>Luxembourg</option>
+      						<option>Andorre</option>
+      						<option>Monaco</option>
+      		 		      <option>Un pays non limitrophe de la France</option>
+      				   </select>
+      				</td>
+    			 	 </tr>
+   			   <tr>
+    	 		    <td><input type="radio" name="main" id="gauche" value="gauche"/>Gaucher </td>
+    		 	    <td><input type="radio" name="main" id="droite" value="droite"/>Droitier </td>
+   	 		   </tr>
+   	 		   <tr>
+    	 		    <td><label for="echelle">Choisir une valeur</label></td>
+    		 	    <td><input type="range" name="echelle" id="echelle" /></td>
+   	 		   </tr>
+   	 		   <tr>
+    	 		    <td><label for="recherche">Choisir une recherche</label></td>
+    		 	    <td><input type="search" name="recherche" id="recherche" /></td>
+   	 		   </tr>
+			</table>
+			<input type="reset" value="Reset" id="reset" onclick="init();"/>
+			<input type="button" value="Verifier" id="Valider" onclick="Valid();" />
+		</form>
+	</main>
+	<script src="../js/contact.js"></script>
+	<script src="../js/corps.js"></script>
+	<footer>
+			<form>
+				<table id="foot">
+			      <tr>
+			          <td><input type="button" onclick="aller(6);" value="Page précédente" id="prec"/></td>
+   		          <td><input type="button" onclick="aller(0);" value="Retour au sommaire" id="som" /></td>
+  			 	     	 <td><input type="button" onclick="aller(0);" value="Page suivante" id="suiv"/></td>
+  			 		</tr>
+		      </table>	
+			</form>
+		</footer>
+</body>
