@@ -24,7 +24,7 @@
 		      <tr>
 		          <td><a href="html/volley.xhtml"><img src="image/volley.jpg" alt="Une image de ballon" class="imgsomm" /> </a></td> 
 		          <td><span class="titre">Le volleyball</span> <br />
-		              J'aborde ici un sport que j'aime tout particulièrement.
+		             <?php Je parle d'un sport>
 		          </td>
 		      </tr>
 		      <tr>
